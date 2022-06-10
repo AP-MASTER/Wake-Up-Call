@@ -9,9 +9,7 @@ const BasicTextModule = ({ title, content, link, linkText }) => {
       <div className="container container__tight">
         <div>
           {title && <h2>{title}</h2>}
-          {content && <p style={{ marginBottom: "60px" }}>{content}</p>}
-
-          <Button text={linkText} as={Link} to={link} />
+          {content && <p style={{ marginBottom: "60px", fontSize: "2rem"}}>{content} <i><b>could</b></i> be</p>}
         </div>
       </div>
     </BasicTextModuleStyles>

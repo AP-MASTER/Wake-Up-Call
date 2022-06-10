@@ -5,7 +5,7 @@ export const BasicTextModuleStyles = styled.section`
     @media (min-width: 768px) {
       > div {
         width: 66.666%;
-        max-width: 700px;
+        max-width: 900px;
       }
     }
   }

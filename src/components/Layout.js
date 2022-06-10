@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.75 }}
       >
-        <NavModule />
+        <NavModule/>
         <AnimMain>
           {children}
           <Footer />
