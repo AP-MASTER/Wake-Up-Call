@@ -41,27 +41,8 @@ const NavModule = () => {
     <NavModuleStyles>
       <div className="nav">
         <div className="container">
-          <HamburgerStyles
-            initial="closed"
-            animate={isOpen ? "open" : "closed"}
-            onClick={toggleNav}
-            onKeyDown={toggleNav}
-            aria-label={isOpen ? "Close Menu" : "Open Menu"}
-            className={isOpen ? " open" : ""}
-          >
-            <motion.span
-              className="bar"
-              variants={barOneVariants}
-            ></motion.span>
-            <motion.span
-              className="bar"
-              variants={barTwoVariants}
-            ></motion.span>
-            <motion.span
-              className="bar"
-              variants={barThreeVariants}
-            ></motion.span>
-          </HamburgerStyles>
+          
+          <p> </p>
 
           {title && (
             <LogoStyles>
